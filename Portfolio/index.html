@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tongu's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+   
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><span style="color: pink;">TONGU</span> Evans Alex</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Mentorship</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Snippet</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    </header>
+
+    <section class="hero">
+        <h1>Hi, I'm Tongu, <br>
+            A software engineer focused on building 
+            scalable, high-performance web applications 
+            with clean architecture and a strong user experience.</h1>
+    </section>
+
+    <section class="bio">
+        <img class="avatar" src="images/profiileimage.jpg" alt="This is tongu">
+        <div class="bio-text">
+            <h2>Biography</h2>
+            <p>
+                I'm a software engineer with a strong focus on 
+                writing maintainable code, clear documentation, and effective 
+                collaboration. I enjoy turning complex problems into simple,
+                reliable solutions using modern web technologies.
+            </p>
+        </div>
+        <div class="bio-connect">
+            <h2>Let's connect</h2>
+            <div class="social-icons">
+                <a href="#" class="facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/alex_craft.256/" class="instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/256703100848" class="whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="telegram" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://www.tiktok.com/@alexcraft256?lang=en" class="tiktok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="what-i-do">
+        <h2>What I do</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <img class="imageone" src="images/jesus.jfif" alt="">
+                <h3>Outcome-driven</h3>
+                <p>I design, build, and maintain web applications that prioritize performance, usability, and scalability.</p>
+            </div>
+            <div class="skill-card">
+                <img class="imagetwo" src="images/backgoundone.webp" alt="">
+                <h3>Web Development</h3>
+                <p>Modern responsive web apps with clean code and optimized performance for long-term maintainability.</p>
+            </div>
+            <div class="skill-card">
+                <img class="imagetwo" src="images/graduation.jfif" alt="skill icon">
+                <h3>UX Research</h3>
+                <p>Applying user research and usability testing to make products intuitive, accessible, and user-friendly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Services I Offer</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Custom Web Development</h3>
+                <p>Creating scalable, responsive web applications with clean code and optimized performance.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service-card">
+                <h3>UX/UI Design</h3>
+                <p>Designing user interfaces that are intuitive, beautiful, and aligned with user behavior.</p>
+                <button>View Portfolio</button>
+            </div>
+            <div class="service-card">
+                <h3>Consulting & Mentorship</h3>
+                <p>Providing guidance on project architecture, best coding practices, and career growth.</p>
+                <button>Get in Touch</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="marketing">
+        <h2>Marketing & Strategy</h2>
+        <div class="marketing-cards">
+            <div class="marketing-card">
+                <h3>SEO Optimization</h3>
+                <p>Ensuring your website ranks high in search engines with clean code and proper metadata.</p>
+            </div>
+            <div class="marketing-card">
+                <h3>Brand Development</h3>
+                <p>Helping you create a strong, recognizable digital presence that resonates with your audience.</p>
+            </div>
+            <div class="marketing-card">
+                <h3>Performance Analytics</h3>
+                <p>Tracking key metrics to optimize user engagement and conversion rates for your applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Interested in Working With Me?</h2>
+        <p>Download my CV or reach out to discuss your project needs.</p>
+        <div class="cta-buttons">
+            <a href="Tongu_CV.pdf" download class="btn">Download CV</a>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section class="featured-projects">
+        <h2>Featured Projects</h2>
+        <div class="project">
+            <div class="project-img">
+                <img src="images/secondimage.jfif" alt="Project image">
+            </div>
+            <div class="project-info">
+                <h3>Bolder Landing Page</h3>
+                <p>React/TypeScript</p>
+                <p>
+                    Architected a high-conversion landing page using Next.js and Tailwind CSS.
+                    Optimized Core Web Vitals to achieve a 95+ Lighthouse score, resulting in a 
+                    20% increase in user engagement.
+                </p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-img">
+                <img src="images/imagetwo.jfif" alt="Project image">
+            </div>
+            <div class="project-info">
+                <h3>Education Management</h3>
+                <p>Web Development</p>
+                <p>
+                    Developed a full-stack dashboard for educational tracking. Integrated Firebase for real-time data syncing
+                    and implemented complex Role-Based Access Control (RBAC) for teachers and students.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="code-snippets">
+        <h2>Code Snippets</h2>
+        <div class="snippet-grid">
+            <div class="snippet-card">
+                <h3>Next.js Starter</h3>
+                <p>A dead simple starter for Next.js project.</p>
+                <span class="stars">★ 8 Stars</span>
+            </div>
+            <div class="snippet-card">
+                <h3>Frontend Starter Kit</h3>
+                <p>A dead simple starter for HTML5 boilerplate project. Includes setup for CSS minification, HTML minification, and SEO settings.</p>
+                <span class="stars">★ 12 Stars</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Tongu Evans Alex</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('nav ul').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

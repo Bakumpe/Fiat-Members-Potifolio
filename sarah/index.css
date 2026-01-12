@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(2, 2, 84);
+}
+
+nav ul li a{
+    text-decoration:none;
+    color: aliceblue;
+    
+}
+a:hover{
+    color: blue
+}
+nav ul{
+    list-style-type: none;
+display: flex;
+justify-content: space-evenly
+
+
+}
+    
+    
+button{
+    color: dodgerblue;
+    height: 30px;
+    width: 100px;
+    background-color:darkslateblue;
+    border-color: deepskyblue;
+    border-radius: 4px;
+    box-shadow: 0 9px 19px 0 dodgerblue;
+    cursor: pointer;
+    float: right;
+    margin-right: 140px;
+    margin-top: 30px;
+
+
+   
+    
+    
+}
+button:hover{
+    background-color: deepskyblue;
+    color: black;
+}
+button a{
+    text-decoration: none;
+    color: dodgerblue;
+     
+    
+    
+    
+}
+.pic{
+    float: right;
+    filter: drop-shadow(10px 10px 7px  lightblue);
+    
+    
+    margin-bottom: 25px;
+    
+}
+p{
+    margin-left: 30%;
+}
+img{
+    
+    opacity: 0.8;
+    clip-path: polygon(50% 0%,100% 50%,50% 100%,0% 50%);
+    
+}
+form{
+    background-color: rgb(2, 2, 109);
+    height: 300px;
+    width: 200px;
+    padding: 50px;
+    margin-left: 40%;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 5px 12px lightskyblue;
+}
+.container{
+    box-shadow: 10px 10px 5px 12px lightsteelblue;
+    height: 600px;
+}
+
+
+    
+
+    
+
+
